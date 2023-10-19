@@ -23,7 +23,7 @@ header{
     
 }
 footer{
-    background-color: #445940;
+    background-color: #5a5a5a;
     padding: 50px;
     text-align: center;
     color: white;
@@ -58,11 +58,11 @@ nav{
     position: absolute;
     display:none;
     list-style: none;
-    width: 300px;
-    background-color: #445940;
+    width: 500px;
+    background-color: #5a5a5a;  
     border: 1px solid white;
 }
-.submenu div{
+.submenu button{
     float: right;
 }
 .menu li:hover .submenu{
@@ -196,6 +196,7 @@ h2{
     color: #445940;
     margin-top: 60px;
     text-align: center;
+    font-family: 'Magra', sans-serif;
 }
 .seleccionB{
     display: flex;
@@ -262,10 +263,22 @@ h2{
     margin-top: 20px;
 }
 .vtm_p{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     float: none;
-    margin-top: 295px;
+    margin-top: 290px;
+    font-family: 'Magra', sans-serif;
+    
+}
+.vd{
+    padding: 10px;
+    font-size: 18px;
+    color: #445940;
+    border: 1px solid white;
+    border-radius: 40px;
+    font-family: 'Magra', sans-serif;
+    background-color: white;
+    float: left;
 }
 
 /* Ver todos los municipios */
