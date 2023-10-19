@@ -64,7 +64,14 @@ nav{
 }
 .submenu button{
     float: right;
+    padding: 10px;
+    font-size: 18px;
+    color: #445940;
+    border: 1px solid white;
+    border-radius: 50px;
+
 }
+
 .menu li:hover .submenu{
     display: block;
 }
@@ -267,19 +274,23 @@ h2{
     font-size: 40px;
     color: white;
     float: none;
-    margin-top: 290px;
+    margin-top: 230px;
     font-family: 'Magra', sans-serif;
+    margin-left: 50px;
     
 }
 .vd{
     padding: 10px;
-    font-size: 18px;
+    padding-left: 10px;
+    font-size: 20px;
     color: #445940;
     border: 1px solid white;
     border-radius: 40px;
     font-family: 'Magra', sans-serif;
     background-color: white;
     float: left;
+    margin-left: 50px;
+    
 }
 
 /* Ver todos los municipios */
