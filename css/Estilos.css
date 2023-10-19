@@ -15,10 +15,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 55px;
+    height: 140px;
     flex-wrap: wrap;
     padding: 10px;
     align-content: center;
+    overflow: auto;
     
 }
 footer{

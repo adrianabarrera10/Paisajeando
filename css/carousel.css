@@ -69,7 +69,19 @@ body {
   letter-spacing: -.05rem;
   
 }
-
+.dropdown-menu {
+    position: absolute;
+    display:block;
+    list-style: none;
+    width: 300px;
+    background-color: #445940;
+    border: 1px solid white;
+  
+ 
+}
+.navbar-toggler {
+  display: none;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -92,3 +104,4 @@ body {
     margin-top: 7rem;
   }
 }
+
